@@ -10,6 +10,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import SignUp from './Components/SignUp';
 function App() {
   return (
    <>
@@ -23,6 +24,9 @@ function App() {
     </Routes>
     <Routes>
       <Route path="login" element={<LogIn/>}></Route>
+    </Routes>
+    <Routes>
+      <Route path="signup" element={<SignUp/>}></Route>
     </Routes>
     <Routes>
       <Route path="checkout" element={<CheckOut/>}></Route>
