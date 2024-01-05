@@ -96,3 +96,8 @@ button:hover {
   background-color: red;
   font-size: 14px;
 }
+
+.card img{
+  height: 200px;
+  width: 287px;
+}

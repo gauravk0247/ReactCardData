@@ -1,7 +1,8 @@
 import './App.css';
-// import Home from './Components/Home';
+import CheckOut from './Components/CheckOut';
+import Home from './Components/Home';
 import LogIn from './Components/LogIn';
-import MainItem from './Components/MainItem';
+import Main from './Components/Main';
 import NavBar from './Components/NavBar';
 import React from "react";
 import {
@@ -14,12 +15,17 @@ function App() {
    <>
    <Router>
    <NavBar/>
-   {/* <Home/> */}
     <Routes>
-      <Route path="mainitem" element={<MainItem/>}></Route>
+      <Route path="home" element={<Home/>}></Route>
+    </Routes>
+    <Routes>
+      <Route path="main" element={<Main/>}></Route>
     </Routes>
     <Routes>
       <Route path="login" element={<LogIn/>}></Route>
+    </Routes>
+    <Routes>
+      <Route path="checkout" element={<CheckOut/>}></Route>
     </Routes>
    </Router>
    </>
