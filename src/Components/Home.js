@@ -50,6 +50,7 @@ export default function Home() {
                         <div class="card" style={{ width: '18rem' }}>
                             <img src="./Img/s1.jpg" class="card-img-top" alt="..." />
                             <div class="card-body">
+                                <h5>Food Catering</h5>
                                 <p class="card-text">Order some food here.</p>
                             </div>
                         </div>
@@ -58,6 +59,7 @@ export default function Home() {
                         <div class="card" style={{ width: '18rem' }}>
                             <img src="./Img/s2.jpg" class="card-img-top" alt="..." />
                             <div class="card-body">
+                                <h5>Bulk Ordering</h5>
                                 <p class="card-text">Order some food here.</p>
                             </div>
                         </div>
@@ -66,6 +68,7 @@ export default function Home() {
                         <div class="card" style={{ width: '18rem' }}>
                             <img src="./Img/s3.jpg" class="card-img-top" alt="..." />
                             <div class="card-body">
+                                <h5 className='center'>Food Ordering</h5>
                                 <p class="card-text">Order some food here.</p>
                             </div>
                         </div>
@@ -74,6 +77,7 @@ export default function Home() {
                         <div class="card" style={{ width: '18rem' }}>
                             <img src="./Img/s4.jpg" class="card-img-top" alt="..." />
                             <div class="card-body">
+                                <h5>Western Food Ordering</h5>
                                 <p class="card-text">Order some food here.</p>
                             </div>
                         </div>

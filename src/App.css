@@ -102,3 +102,8 @@ button:hover {
   height: 200px;
   width: 287px;
 }
+.my-checkout label{
+  /* text-shadow: 2px 2px 2px rgb(88, 184, 131); */
+  text-shadow: none;
+  color: black;
+}
